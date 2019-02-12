@@ -1,0 +1,4 @@
+There are 3 methods to get the binary coefficients for the given expression, all having the same time complexity of O(n*k)
+- The recursive method can be used when only a single query is received. The method uses a memory of around (2^n-1)*16 which is the space allocated in stack for each recursion although it is not held up permanently
+- The 2D Dynamic solution is best used when multiple queries are to be made based on the binomial coefficients. Space Complexity is O(n*k).
+- The 1D Dynamic solution provides the best alternative when a single row(coefficient ) needs to be fetchef. Space Complexity O(k). This Method computes iteratively each row of the pascals triangle by using the previous row and overwriting it. Thus, it squeezes the solution of a 2d solution into a single array. 
