@@ -1,0 +1,17 @@
+1)Lookup Table Technique
+  -Space Complexity is O(n^2).
+  -Time Complexity for table processing is O(n^2).
+  -Query time is O(1).
+  -Useful when there are more number of queries.
+
+2)Square Root Decomposition
+  -Space Complexity is O(n).
+  -Time Complexity for processing is O(n).
+  -Query Time is O(sqrt(n)).
+  -Useful when query includes the entire range of blocks.
+
+3)Segment Tree
+  -Space Complexity is O(4n).
+  -Time Complexity for query is O(logn).
+  -Time Complexity for processing(building tree) is O(n).
+  -Suitable when the array is static as applying update is inefficient.
